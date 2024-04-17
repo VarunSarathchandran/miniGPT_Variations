@@ -13,6 +13,9 @@ Instructions to run the code:
 3. Install the requirements using -
 4. pip install -r requirements.txt
 5. Run the python script with desired architecture and hyperparameters
+6. If desired, download a model checkpoint at https://drive.google.com/file/d/1ibkj-czO6VuwzOqgtPeiwtBQvubae54H/view?usp=share_link.	
+Note: The checkpoint contains a model pre-trained on Wikipedia and fine-tuned on Shakespeare. The default architecture parameters and hyperparamters in the code have been used(Dot product attention, Traditional Transformer block, with RPR).			
+CAUTION: the checkpoint cannot be loaded if the architecture parameters or the hyperparameters are changed.
 
 Details of the Files in the Repository:  
 1.Datasets: Two different datasets are included- ‘Input.txt’: Shakespeare text and ‘Enwik8.txt’: 100mb of Wikipedia  

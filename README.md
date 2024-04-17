@@ -5,7 +5,7 @@ Exploring Variations of Transformer Architecture in miniGPT Design.
 Course Name: Machine learning, a Bayesian Perspective (EE4685)  
 Course Intructor: Dr. ir. Justin Dawels
 
-Abstract: This project offers insight into the transformer architecture via a mini GPT implementation. Two different attention mechanisms- dot product attention and additive attention, and two different transformer blocks- the traditional Transformer block (as found in “Attention is All You Need” paper), and Weighted Transformer are presented. A powerful method of position representation- Relative Position Representation(RPR) is also implemented. The user can switch between different types of attention and transformer blocks, as well as toggle RPR on/off to study its effects on the loss and generated text.
+Abstract: This project offers insight into the transformer architecture via a mini GPT implementation. We start with a base model built by Andrej Karpathy in https://github.com/karpathy/ng-video-lecture, which essentially implements the "Attention is All You Need" paper. We then implement different types of transformer architectures, attention types and position representations on the base model. Two different attention mechanisms- dot product attention and additive attention, and two different transformer blocks- the traditional Transformer block (as found in “Attention is All You Need” paper), and Weighted Transformer are presented. A powerful method of position representation- Relative Position Representation(RPR) is also implemented. The user can switch between different types of attention and transformer blocks, as well as toggle RPR on/off to study its effects on the loss and generated text.
 
 Instructions to run the code:
 1. Clone the repository

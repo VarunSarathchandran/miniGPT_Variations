@@ -34,7 +34,7 @@ Instructions on running custom experiments:
 The user may choose whatever combination they wish. Note that RPR cannot be used with additive attention. The model will force attention to dot product  if RPR is True.
 2. The model saves checkpoints every eval_interval number of iterations in the Saved Checkpoints folder.
 3. The model will generate a plot of the losses and also store a generated text file in the GeneratedData folder.
-4. To load a checkpoint: load_checkpoint= False, and enter the checkpoint name.
+4. To load a checkpoint: load_checkpoint= True, and enter the checkpoint name.
 
 Brief Summary of Results:
 1. Performance metrics used: Training and Validation loss.
